@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #020109;
+    font-size: 1.6rem;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_beater{
+    position: relative;
+    width: 70%;
+    padding: 70px 0;
+}
+.beater_heading{
+    font-size: 4rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-bottom: 1.6rem;
+}
+.beater_subtitle{
+    font-size: 0.9rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 80%;
+    line-height: 2.5em;
+}
+.start_game{
+    padding: 1rem 1rem;
+    width: 15rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border: none;
+    background: linear-gradient(180deg,#ed06fb 15%,#9b1bea);
+    box-shadow: 0 0 50px rgba(237,6,251,.5);
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.start_game:hover{
+    box-shadow: 0 0 50px #FF00FF, 0 0 21px #FF00FF;
+}
